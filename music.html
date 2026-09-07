@@ -106,7 +106,15 @@ img{max-width:100%;display:block}
 .embed-card-header .embed-card-icon{font-size:1.25rem}
 .embed-card-header h3{font-size:.95rem;color:var(--text-light);margin:0;letter-spacing:.02em}
 .embed-card iframe{border-radius:12px;display:block;width:100%}
+.embed-card-ig{padding:1rem;min-height:450px}
+.embed-card-ig .instagram-media{margin:0 auto !important;max-width:100% !important}
 .social-links{display:flex;gap:1rem;justify-content:center;margin-top:2rem}
+.section-cta{background:linear-gradient(135deg,rgba(233,69,96,.08) 0%,rgba(245,166,35,.05) 100%);border-top:1px solid rgba(233,69,96,.15);border-bottom:1px solid rgba(233,69,96,.15);padding:3.5rem 0}
+.cta-inner{max-width:720px;margin:0 auto;text-align:center;padding:0 1.5rem}
+.cta-eyebrow{display:inline-block;font-family:var(--font-heading);font-size:.75rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.85rem}
+.cta-inner h2{font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:.75rem;color:var(--text-light)}
+.cta-inner p{color:var(--text-muted);font-size:1.02rem;line-height:1.65;margin-bottom:1.75rem}
+.cta-actions{display:flex;gap:.85rem;justify-content:center;flex-wrap:wrap}
 .social-link{display:inline-flex;align-items:center;gap:.5rem;background:var(--bg-card);border:1px solid rgba(233,69,96,.15);padding:.6rem 1.2rem;border-radius:50px;font-size:.85rem;color:var(--text-muted);font-weight:500;transition:all var(--transition)}
 .social-link:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
 
@@ -178,8 +186,9 @@ img{max-width:100%;display:block}
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links">
+      <li><a href="#music">Listen</a></li>
+      <li><a href="#book">Book</a></li>
       <li><a href="#bio">Bio</a></li>
-      <li><a href="#music">Music</a></li>
       <li><a href="#timeline">Journey</a></li>
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="index.html" class="nav-back">&larr; RevOps</a></li>
@@ -202,10 +211,11 @@ img{max-width:100%;display:block}
       <h1>Ian <span class="itk">the Korean</span>
         <span class="sub">Emcee &middot; Drummer &middot; Artist</span>
       </h1>
-      <p class="music-hero-desc">Atlanta-based emcee, Soul Food Cypher competitor, and SFC NEXT graduate. Every fourth Sunday, the cypher opens up &mdash; and ITK is in the circle.</p>
+      <p class="music-hero-desc">Atlanta-based emcee. Soul Food Cypher competitor and SFC NEXT graduate. In the cypher every fourth Sunday.</p>
       <div class="music-hero-ctas">
         <a href="#music" class="btn btn-accent">Listen</a>
-        <a href="#timeline" class="btn btn-outline">My Journey</a>
+        <a href="#book" class="btn btn-accent">Book</a>
+        <a href="#timeline" class="btn btn-outline">Journey</a>
       </div>
     </div>
     <div class="music-hero-visual">
@@ -214,47 +224,8 @@ img{max-width:100%;display:block}
   </div>
 </section>
 
-<!-- BIO -->
-<section class="section section-dark" id="bio">
-  <div class="container">
-    <div class="section-header anim">
-      <h2>The Story</h2>
-      <div class="accent-line"></div>
-    </div>
-    <div class="bio-grid">
-      <div class="bio-text anim">
-        <p>I go by <strong>Ian the Korean (ITK)</strong> on the mic. I'm an emcee &mdash; someone who lives for the cypher, that spur-of-the-moment, off-the-top circle where different emcees take turns laying down bars. Rapping isn't a side project; it's how I process, express, and connect.</p>
-        <p>I joined <strong><a href="https://www.soulfoodcypher.com/" target="_blank" rel="noopener">Soul Food Cypher (SFC)</a></strong> in 2024 &mdash; Atlanta's freestyle rap community founded in 2011 with a mission to provide lyricists a safe, nurturing environment where their voice and artistry can grow. SFC meets every fourth Sunday of the month and has been featured by ArtsATL, Atlanta Magazine, WABE, and Creative Loafing. In 2025 I graduated from <strong><a href="https://www.soulfoodcypher.com/sfc-next" target="_blank" rel="noopener">SFC NEXT</a></strong>, the artist development program for emcees ready to go deeper, step into the responsibility of representing Soul Food Cypher, and help shape what SFC becomes next. Through SFC, I also taught a freestyle class at <strong><a href="https://www.devereux.org/site/SPageServer/?pagename=ga_index" target="_blank" rel="noopener">Devereux Advanced Behavioral Health</a></strong> in Kennesaw, Georgia &mdash; an organization established in Cobb County in 1973 that provides individualized therapeutic services for children and adolescents.</p>
-        <p>Music started long before the mic. I spent five years as a competitive <strong>snare drummer</strong> in DCI and WGI &mdash; marching with <strong><a href="https://www.connexusindependent.org/history/" target="_blank" rel="noopener">ConneXus Indoor Percussion</a></strong> (2017&ndash;2019) and the <strong><a href="https://www.crossmen.org/" target="_blank" rel="noopener">Crossmen Drum &amp; Bugle Corps</a></strong> (2018&ndash;2019), where I served as drumline section leader in my final season. That background &mdash; the discipline, the precision, the relentless pursuit of clean execution &mdash; carries into everything I do on stage and in the booth.</p>
-      </div>
-      <div class="bio-highlights anim">
-        <div class="bio-card">
-          <div class="bio-card-icon">&#x1F3A4;</div>
-          <h3>Emcee &amp; Lyricist</h3>
-          <p>Soul Food Cypher competitor since 2024. SFC NEXT graduate (2025). Off-the-top freestyle every fourth Sunday.</p>
-        </div>
-        <div class="bio-card">
-          <div class="bio-card-icon">&#x1F3EB;</div>
-          <h3>Educator</h3>
-          <p>Taught freestyle at Devereux Advanced Behavioral Health in Kennesaw, GA on behalf of Soul Food Cypher.</p>
-        </div>
-        <div class="bio-card">
-          <div class="bio-card-icon">&#x1F30F;</div>
-          <h3>ATL Based</h3>
-          <p>Atlanta raised. Rooted in rhythm, driven by rhyme. Everyone eats.</p>
-        </div>
-        <div class="bio-card">
-          <div class="bio-card-icon">&#x1F941;</div>
-          <h3>Drumline Roots</h3>
-          <p>Former DCI/WGI snare drummer. ConneXus (2017&ndash;2019), Crossmen (2018&ndash;2019). Section leader &rsquo;19.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- MUSIC -->
-<section class="section section-deep" id="music">
+<section class="section section-dark" id="music">
   <div class="container">
     <div class="section-header anim">
       <h2>Listen</h2>
@@ -269,10 +240,12 @@ img{max-width:100%;display:block}
         </div>
         <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/artist/1uoffmbwEc4mSxfBJiIAwy?utm_source=generator&theme=0" width="100%" height="450" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Ian the Korean on Spotify"></iframe>
       </div>
-      <div class="embed-placeholder">
-        <div class="embed-placeholder-icon">&#x2601;</div>
-        <h3>SoundCloud</h3>
-        <p>Embed coming soon</p>
+      <div class="embed-card embed-card-ig">
+        <div class="embed-card-header">
+          <span class="embed-card-icon">&#x1F4FB;</span>
+          <h3>Live Radio Freestyle</h3>
+        </div>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DGbAosIR3Ey/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF;border:0;border-radius:12px;box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);margin:0;max-width:540px;min-width:326px;padding:0;width:100%;"><div style="padding:16px;"><a href="https://www.instagram.com/reel/DGbAosIR3Ey/?utm_source=ig_embed&amp;utm_campaign=loading" style="background:#FFFFFF;line-height:0;padding:0 0;text-align:center;text-decoration:none;width:100%;" target="_blank" rel="noopener">View reel on Instagram</a><p style="color:#c9c8cd;font-family:Arial,sans-serif;font-size:14px;line-height:17px;margin-bottom:0;margin-top:8px;overflow:hidden;padding:8px 0 7px;text-align:center;text-overflow:ellipsis;white-space:nowrap;"><a href="https://www.instagram.com/reel/DGbAosIR3Ey/?utm_source=ig_embed&amp;utm_campaign=loading" style="color:#c9c8cd;font-family:Arial,sans-serif;font-size:14px;font-style:normal;font-weight:normal;line-height:17px;text-decoration:none;" target="_blank" rel="noopener">A post shared by Ian the Korean | ITK (@ian_thekorean)</a></p></div></blockquote>
       </div>
       <div class="embed-card">
         <div class="embed-card-header">
@@ -291,6 +264,74 @@ img{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- BOOKINGS CTA -->
+<section class="section-cta" id="book">
+  <div class="cta-inner anim">
+    <span class="cta-eyebrow">Bookings</span>
+    <h2>Book Ian the Korean</h2>
+    <p>Open mics, showcases, features, cypher sets. Atlanta and beyond. Booking new venues.</p>
+    <div class="cta-actions">
+      <a href="https://www.instagram.com/ian_thekorean" target="_blank" rel="noopener" class="btn btn-accent">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        DM on Instagram
+      </a>
+      <a href="mailto:iann.kimble@gmail.com?subject=Booking%20inquiry%20%E2%80%94%20Ian%20the%20Korean" class="btn btn-outline">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- BIO -->
+<section class="section section-deep" id="bio">
+  <div class="container">
+    <div class="section-header anim">
+      <h2>The Story</h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="bio-grid">
+      <div class="bio-text anim">
+        <p>I go by <strong>Ian the Korean (ITK)</strong> on the mic. I'm an emcee &mdash; the cypher is where I live, that spur-of-the-moment circle where rappers take turns off the top.</p>
+        <p>I joined <strong><a href="https://www.soulfoodcypher.com/" target="_blank" rel="noopener">Soul Food Cypher (SFC)</a></strong> in 2024 &mdash; Atlanta's freestyle rap community, founded in 2011. SFC meets the fourth Sunday of every month and has been covered by ArtsATL, Atlanta Magazine, WABE, and Creative Loafing. In 2025 I graduated from <strong><a href="https://www.soulfoodcypher.com/sfc-next" target="_blank" rel="noopener">SFC NEXT</a></strong>, SFC's artist development program. Through SFC I also taught a freestyle class at <strong><a href="https://www.devereux.org/site/SPageServer/?pagename=ga_index" target="_blank" rel="noopener">Devereux Advanced Behavioral Health</a></strong>, a Kennesaw-based youth behavioral health provider. In 2025 I did a live on-air freestyle on <strong><a href="https://www.instagram.com/reel/DGbAosIR3Ey/" target="_blank" rel="noopener">WREK 91.1</a></strong>, Atlanta's independent college radio station. I also perform bi-weekly at <strong><a href="https://www.eventbrite.com/e/atlanta-open-mic-for-artists-producers-musicians-aux-session-atl-tickets-1998812665489" target="_blank" rel="noopener">Aux Session ATL</a></strong>, the Thursday-night open mic at Dream Sound Studio in Riverdale, GA, hosted by Resilient Ripp.</p>
+        <p>Before the mic, I spent five years as a competitive <strong>snare drummer</strong> in DCI and WGI &mdash; three seasons with <strong><a href="https://www.connexusindependent.org/history/" target="_blank" rel="noopener">ConneXus Indoor Percussion</a></strong> (2017&ndash;2019) and two with the <strong><a href="https://www.crossmen.org/" target="_blank" rel="noopener">Crossmen Drum &amp; Bugle Corps</a></strong> (2018&ndash;2019). Drumline section leader my final season.</p>
+      </div>
+      <div class="bio-highlights anim">
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F3A4;</div>
+          <h3>Emcee &amp; Lyricist</h3>
+          <p>Soul Food Cypher competitor since 2024. SFC NEXT graduate (2025). Off-the-top freestyle every fourth Sunday.</p>
+        </div>
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F4FB;</div>
+          <h3>Live on WREK 91.1</h3>
+          <p>Live on-air freestyle on WREK 91.1, Atlanta's independent college radio station.</p>
+        </div>
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F399;</div>
+          <h3>Aux Session ATL</h3>
+          <p>Bi-weekly Thursday open mic at Dream Sound Studio in Riverdale, GA.</p>
+        </div>
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F3EB;</div>
+          <h3>Educator</h3>
+          <p>Taught freestyle at Devereux Advanced Behavioral Health in Kennesaw, GA on behalf of Soul Food Cypher.</p>
+        </div>
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F30F;</div>
+          <h3>ATL Based</h3>
+          <p>Atlanta raised, Atlanta based.</p>
+        </div>
+        <div class="bio-card">
+          <div class="bio-card-icon">&#x1F941;</div>
+          <h3>Drumline Roots</h3>
+          <p>Former DCI/WGI snare drummer. ConneXus (2017&ndash;2019), Crossmen (2018&ndash;2019). Section leader &rsquo;19.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- TIMELINE -->
 <section class="section section-dark" id="timeline">
   <div class="container">
@@ -305,7 +346,7 @@ img{max-width:100%;display:block}
         <div class="tl-content">
           <span class="tl-year">Now</span>
           <h3>Ian the Korean</h3>
-          <p>Active SFC competitor, contributor, and freestyle instructor. Building the ITK brand and carrying the art of freestyle forward. Everyone eats.</p>
+          <p>Active SFC competitor, contributor, and freestyle instructor. Performing across Atlanta as ITK.</p>
         </div>
       </div>
 
@@ -314,7 +355,16 @@ img{max-width:100%;display:block}
         <div class="tl-content">
           <span class="tl-year">2025</span>
           <h3>SFC NEXT Graduate</h3>
-          <p>Selected for and graduated from SFC NEXT &mdash; the artist development program for emcees ready to go deeper, step into the responsibility of representing Soul Food Cypher, and help shape what SFC becomes next. Completed the full Boot Camp process.</p>
+          <p>Graduated from SFC NEXT, SFC's artist development program. Completed the full Boot Camp process.</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2025</span>
+          <h3>Live on WREK 91.1</h3>
+          <p>Performed a <a href="https://www.instagram.com/reel/DGbAosIR3Ey/" target="_blank" rel="noopener">live on-air freestyle</a> on WREK 91.1, Atlanta's independent college radio station.</p>
         </div>
       </div>
 
@@ -323,7 +373,7 @@ img{max-width:100%;display:block}
         <div class="tl-content">
           <span class="tl-year">2025</span>
           <h3>Freestyle Instructor &mdash; Devereux</h3>
-          <p>Taught a freestyle class at <strong>Devereux Advanced Behavioral Health</strong> in Kennesaw, GA on behalf of Soul Food Cypher &mdash; an organization that has provided therapeutic services for children and adolescents in Cobb County since 1973.</p>
+          <p>Taught a freestyle class at <strong>Devereux Advanced Behavioral Health</strong> in Kennesaw, GA on behalf of Soul Food Cypher.</p>
         </div>
       </div>
 
@@ -332,7 +382,7 @@ img{max-width:100%;display:block}
         <div class="tl-content">
           <span class="tl-year">2024</span>
           <h3>Soul Food Cypher</h3>
-          <p>Joined Atlanta's freestyle rap community founded by Alexander &ldquo;Cost One&rdquo; Acosta in 2011. Every fourth Sunday, emcees gather for spur-of-the-moment, off-the-top freestyle. Started competing and never looked back.</p>
+          <p>Joined Atlanta's freestyle rap community, founded by Alexander &ldquo;Cost One&rdquo; Acosta in 2011. Fourth Sunday of every month, emcees gather to freestyle off the top.</p>
         </div>
       </div>
 
@@ -434,5 +484,6 @@ img{max-width:100%;display:block}
   animEls.forEach(function(el){animObs.observe(el);});
 })();
 </script>
+<script async src="//www.instagram.com/embed.js"></script>
 </body>
 </html>
